@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "pnpm tauri dev",
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview"
@@ -12,6 +13,7 @@
     "vue": "^3.2.37"
   },
   "devDependencies": {
+    "@tauri-apps/cli": "^1.0.5",
     "@vitejs/plugin-vue": "^3.0.0",
     "typescript": "^4.6.4",
     "vite": "^3.0.0",
